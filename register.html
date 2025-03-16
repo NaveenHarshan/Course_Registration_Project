@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <title>Document</title> -->
+     <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h2>Register a Course</h2><br>
+
+    <form action="http://localhost:8080/courses/register" method="post">
+    <label for="name">Enter a Name:</label>
+     <input type="text" name="name"><br><br>
+
+     <label for="name">Enter your email:</label>
+     <input type="email" name="emailId"><br><br>
+
+     <label for="name">Choose a Course</label>
+     <select name="courseName" id="course">
+        <option value="Java">Java</option>
+        <option value="python">python</option>
+        <option value="C++">C++</option>
+     </select>
+
+     <br><br>
+
+     <button type="submit">Submit</button>
+
+    </form>
+     
+    
+</body>
+</html>

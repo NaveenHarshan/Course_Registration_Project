@@ -1,0 +1,53 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #dee2e6);
+    text-align: center;
+    padding: 50px;
+}
+
+/* Heading */
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(0, 91, 187, 0.3);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 80%;
+        font-size: 16px;
+    }
+}
